@@ -1,0 +1,670 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-left {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    width: 1170px;
+    height: 585px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.left {
+    width: 702px;
+    height: 585px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    overflow: hidden;
+}
+
+.left>img {
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    width: 100%;
+    height: auto;
+}
+
+.left>img:hover {
+    transform: scale(1.15);
+}
+
+.right {
+    margin-left: 5px;
+
+}
+
+.upper {
+    width: 440px;
+    height: 285px;
+    left: 717px;
+    gap: 3px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    overflow: hidden;
+
+}
+
+.upper>img {
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    width: 100%;
+    height: auto;
+}
+
+.upper>img:hover {
+    transform: scale(1.15);
+}
+
+.down {
+    width: 440px;
+    height: 285px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.down>img {
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    width: 100%;
+    height: auto;
+}
+
+.down>img:hover {
+    transform: scale(1.15);
+}
+
+.second {
+    width: 1185px;
+    height: 550.83px;
+    top: 635px;
+    left: -15px;
+    padding: 0px 0px 30px 0px;
+    gap: 21px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.second-left {
+    width: 786px;
+    height: 520.83px;
+    padding: 0px 0px 10.75px 0px;
+    gap: 20px;
+    opacity: 0px;
+
+
+}
+
+.left-up {
+    width: Hug (756px)px;
+    height: Hug (40.08px)px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.left-down {
+    width: Hug (786px)px;
+    height: Hug (450px)px;
+    padding: 0px 0px 0px 15px;
+    gap: 15px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.down-left {
+    width: Hug (363px)px;
+    height: Hug (450px)px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    overflow: hidden;
+
+}
+
+.down-right {
+    width: Hug (393px)px;
+    height: Hug (417.56px)px;
+    padding: 0px 14.78px 0px 15px;
+    gap: 30px;
+    opacity: 0px;
+
+}
+
+.obj {
+    width: Hug (363.22px)px;
+    height: Hug (87.88px)px;
+    padding: 4px 0px 0px 0px;
+    gap: 5.88px;
+    opacity: 0px;
+
+}
+
+.content {
+    width: 363.22px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Slab;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.94px;
+    text-align: left;
+
+}
+
+.content:hover {
+    cursor: pointer;
+    color: #F21D44;
+}
+
+.user {
+    width: Hug (363px)px;
+    height: Hug (30px)px;
+    padding: 5px 211.72px 5px 0px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+/* .second-right {
+    width: Hug (378px)px;
+    height: Hug (461px)px;
+    gap: 30px;
+    opacity: 0px;
+
+} */
+.second {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.second-left {
+    width: 50%;
+    max-width: 786px;
+    /* Limiting the width to prevent going out of screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-right {
+    width: 50%;
+    max-width: 378px;
+    /* Limiting the width to prevent going out of screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-middle {
+    margin-top: 8px;
+}
+
+.right-down {
+    margin-top: 5px;
+}
+
+.third {
+    width: Hug (1170px)px;
+    height: Hug (342px)px;
+    top: 1217.33px;
+    gap: 24px;
+    opacity: 0px;
+
+}
+
+.thirdupper {
+    width: Hug (1170px)px;
+    height: Hug (48px)px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirddown {
+    width: Hug (1170px)px;
+    height: Hug (270px)px;
+    gap: 30px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+
+}
+
+.crousel {
+    width: 270px;
+    height: 270px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    overflow: hidden;
+
+}
+
+.crousel>img {
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    width: 100%;
+    height: auto;
+}
+
+.crousel>img:hover {
+    transform: scale(1.15);
+}
+
+
+
+.fourthleft {
+    width: Hug (366px)px;
+    height: Hug (551.98px)px;
+    gap: 30px;
+    opacity: 0px;
+
+
+}
+
+.fourthfirst {
+    width: 366px;
+    height: 31.98px;
+    padding: 0px 262.08px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.fourthsecond {
+    margin-top: 25px;
+}
+
+.smallbox {
+    width: Hug (366px)px;
+    height: Hug (100px)px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+.imagebox {
+    width: 100px;
+    height: 100px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.textbox {
+    width: Fill (242px)px;
+    height: Hug (72px)px;
+    padding: 0px 15.88px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+
+
+}
+
+.maintext {
+    width: 226.12px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+
+.date {
+    width: Hug (83.36px)px;
+    height: Hug (16px)px;
+    gap: 5px;
+    opacity: 0px;
+
+}
+
+.fourth {
+    width: 100%;
+    margin-top: 15px;
+    max-width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Change align-items to flex-start */
+    gap: 20px;
+    opacity: 1;
+    /* Set opacity to 1 for visibility */
+}
+
+.fourthleft,
+.fourthmiddle,
+.forthright {
+    width: calc((100% - 40px) / 3);
+    /* Adjust width to fit within the screen */
+    margin-top: 40px;
+}
+
+.maintext:hover {
+    color: #F21D44;
+    cursor: pointer;
+}
+
+.checkout {
+    width: Hug (1170px)px;
+    height: Hug (178.56px)px;
+    top: 2242.81px;
+    padding: 18px 18px 49.5px 18px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lastbox {
+    width: 1170px;
+    height: 1604.81px;
+    top: 2421.38px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    justify-content: evenly;
+
+}
+
+.lastbox-left {
+    width: 726px;
+    height: 1553.98px;
+    top: 50px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.lastboxupper {
+    width: 726px;
+    height: 31.98px;
+    padding: 0px 594.17px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.lastboxdown {
+    width: Hug (726px)px;
+    height: Hug (1400px)px;
+    top: 51.98px;
+    padding: 0px 0px 30px 0px;
+    gap: 30px;
+    opacity: 0px;
+
+
+}
+
+.boxes {
+    width: Hug (726px)px;
+    height: Hug (250px)px;
+    gap: 30px;
+    opacity: 0px;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 4px;
+
+}
+
+.lastboxdownleft {
+    width: 250px;
+    height: 250px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.lastboxdownright {
+    width: 446px;
+    height: 147.98px;
+    gap: 0px;
+    opacity: 0px;
+
+
+
+
+}
+
+.one {
+    width: 416px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Slab;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40.01px;
+    text-align: left;
+
+}
+
+.two {
+    width: Hug (446px)px;
+    height: Hug (16px)px;
+    top: 48px;
+    padding: 0px 294.69px 0px 0px;
+    gap: 9.16px;
+    opacity: 0px;
+
+}
+
+.three {
+    width: 412.89px;
+    height: 60px;
+    top: 87.98px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.lastbox-right {
+    width: 378.2px;
+    height: 1604.81px;
+    left: 800px;
+    /* padding: 50px 0px 31.5px 0px; */
+    gap: 50px;
+    opacity: 0px;
+
+
+}
+
+.lastboxrightupperhalf {
+    width: 378px;
+    height: 612px;
+    gap: 30px;
+    opacity: 0px;
+
+}
+
+.lastboxrightheading {
+    width: Hug (378px)px;
+    height: Hug (40px)px;
+    padding: 0px 310.08px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.lastbox {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one:hover {
+    cursor: pointer;
+    color: #F21D44;
+}
+
+.rightupperbox {
+    width: Hug (378px)px;
+    height: Hug (101px)px;
+    top: 290px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    margin-top: 3px;
+
+}
+
+.look {
+    width: 100px;
+    height: 100px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.looktext {
+    width: Fill (254px)px;
+    height: Hug (101px)px;
+    padding: 0px 0px 10px 0px;
+    gap: 5px;
+    opacity: 0px;
+
+}
+
+.normaltext {
+    width: 226.22px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.ddd {
+    width: Hug (254px)px;
+    height: Hug (30px)px;
+    padding: 5px 91.72px 5px 0px;
+    gap: 15px;
+    opacity: 0px;
+
+}
+
+.normaltext:hover {
+    color: #F21D44
+}
+
+.lastrightdownbox {
+    width: Hug (378.2px)px;
+    height: Fill (861.31px)px;
+    padding: 0px 0px 50px 0px;
+    gap: 50px;
+    opacity: 0px;
+
+}
+
+.lastrightdownbox {
+    width: 378.2px;
+    height: 861.31px;
+    padding: 0px 0px 50px 0px;
+    gap: 50px;
+    opacity: 0px;
+    position: relative;
+    /* Add relative positioning */
+    top: -10px;
+    /* Adjust the top position as needed */
+}
+
+.footer {
+    width: Hug (1920px)px;
+    height: Hug (370.28px)px;
+    top: 4465.69px;
+    gap: 0px;
+    opacity: 0px;
+
+    background-color: #010D00;
+
+
+}
+
+.magzinelogobox {
+    width: Hug(1920px)px;
+    height: 187.98px;
+    padding: 63.98px 0px 40px 0px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.magzine-logo {
+    width: 219px;
+    height: 84px;
+    top: 63.98px;
+    left: 850.5px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.copyright {
+    width: Hug (377px)px;
+    height: Hug (25.5px)px;
+    padding: 0px 0px 0.5px 0px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-align: center;
+    color: white;
+
+
+}
+/*  */
